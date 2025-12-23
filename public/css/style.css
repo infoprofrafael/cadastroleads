@@ -1,0 +1,27 @@
+.containermain{
+   padding-top: 12%;
+
+}
+
+
+
+.buttonCss {
+    transition-property: transform, box-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+}
+
+.buttonCss:hover {
+    transform: scale(1.15);
+    color: black;
+}
+
+
+
+@media (max-width:768px){
+    .containermain{
+        padding: 25% 6% 4% 6%;
+
+    }
+}
