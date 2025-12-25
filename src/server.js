@@ -12,6 +12,11 @@ app.use(express.json());
 
 app.use('/leads', leadRoutes);
 
+// tornando público a pasta 'public', contudo isso no navegador não é para ser assim
+app.use(express.static('public'));
+
+
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, ()=>{

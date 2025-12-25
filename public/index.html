@@ -63,7 +63,7 @@
         <div class="containermain bg-gray-300 block ">
 
 
-            <form class="max-w-xl mx-auto flex flex-col " >
+            <form class="max-w-xl mx-auto flex flex-col ">
                 <div class="relative z-0 w-full mb-5 group">
                     <input type="text" name="floating_name" id="floating_name"
                         class="block py-2.5 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer"
@@ -101,10 +101,41 @@
 
                 </div>
                 <button type="submit"
-                    class="buttonCss bg-blue-600 box-border border shadow-lg cursor-pointer leading-5 rounded-lg text-sm px-4 py-2.5 text-white focus:ring-4 focus:ring-brand-medium mx-auto font-medium  hover:bg-blue-500">Cadastrar</button>
-               
+                    class=" mt-4 buttonCss bg-blue-600 box-border border shadow-lg cursor-pointer leading-5 rounded-lg text-sm px-4 py-2.5 text-white focus:ring-4 focus:ring-brand-medium mx-auto font-medium  hover:bg-blue-500">Cadastrar</button>
+
             </form>
-             
+
+          
+            
+
+            <div class=" max-w-xl mx-auto relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default mt-6 ">
+                <table class="w-full text-sm text-left rtl:text-right text-body">
+                    <thead class="bg-neutral-secondary-soft border-b border-default">
+                        <tr>
+                             <th scope="col" class="px-6 py-3 font-medium">
+                                Id
+                            </th>
+                            <th scope="col" class="px-6 py-3 font-medium">
+                                Nome
+                            </th>
+                            <th scope="col" class="px-6 py-3 font-medium">
+                                Profissão
+                            </th>
+                            <th scope="col" class="px-6 py-3 font-medium">
+                                E-mail
+                            </th>
+                            <th scope="col" class="px-6 py-3 font-medium">
+                                WhatsApp
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-leads">
+                        
+                    </tbody>
+                </table>
+            </div>
+
+
             <br>
 
         </div>
@@ -113,6 +144,8 @@
     <footer>
 
     </footer>
+    <script src="/public/js/script.js"></script>
+    <script src="/public/js/script-apiurl.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
 
 </body>
